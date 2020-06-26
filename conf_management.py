@@ -11,17 +11,6 @@ def get_telegram_group_id():
     return os.getenv('TELEGRAM_GROUP_ID')
 
 
-def get_aemet_token():
-    return os.getenv('AEMET_TOKEN')
-
-
-def get_city_id():
-    return os.getenv('CITY_ID')
-
-def get_schedule():
-    return os.getenv('WEATHER_SCHEDULE').split(',')
-
-
 def get_connection_by_config():
     postgresql = {
         "host": os.getenv('POSTGRES_HOST'),
