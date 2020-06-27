@@ -23,15 +23,12 @@ services:
         context: .
     image: recipesbot
     environment: 
-        - AEMET_TOKEN=${AEMET_TOKEN}
         - TELEGRAM_TOKEN=${TELEGRAM_TOKEN}
         - TELEGRAM_GROUP_ID=${TELEGRAM_GROUP_ID}
-        - CITY_ID=${CITY_ID}
         - POSTGRES_HOST=${POSTGRES_HOST:-postgres}
         - POSTGRES_USER=${POSTGRES_USER:-recipesbot}
         - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-recipesbot}
         - POSTGRES_DATABASE=${POSTGRES_DATABASE:-recipesbot}
-        - WEATHER_SCHEDULE=08:00,12:00,15:00,18:00,22:00,00:00
   pgadmin:
     image: dpage/pgadmin4
     restart: unless-stopped
