@@ -1,4 +1,4 @@
-certifi==2020.4.5.2
+certifi==2020.6.20
 cffi==1.14.0
 chardet==3.0.4
 cryptography==2.9.2
@@ -12,8 +12,8 @@ pycparser==2.20
 pydocstyle==5.0.2
 pyflakes==2.2.0
 pylama==7.7.1
-python-telegram-bot==12.7
-requests==2.7.0
+python-telegram-bot==12.8
+requests==2.24.0
 schedule==0.6.0
 six==1.15.0
 snowballstemmer==2.0.0
