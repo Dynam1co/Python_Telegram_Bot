@@ -6,7 +6,7 @@ decorator==4.4.2
 future==0.18.2
 idna==2.9
 mccabe==0.6.1
-psycopg2-binary==2.8.5
+psycopg2-binary==2.8.6
 pycodestyle==2.6.0
 pycparser==2.20
 pydocstyle==5.0.2
