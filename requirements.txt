@@ -13,7 +13,7 @@ pydocstyle==5.0.2
 pyflakes==2.2.0
 pylama==7.7.1
 python-telegram-bot==12.7
-requests==2.7.0
+requests==2.25.1
 schedule==0.6.0
 six==1.15.0
 snowballstemmer==2.0.0
